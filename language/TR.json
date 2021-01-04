@@ -68,20 +68,20 @@
         },
         "heroku": {
             "RESTART_DESC": "WhatsAsena'yı yeniden başlatın",
-            "RESTART_MSG": "```yeniden başlatma...```",
-            "SHUTDOWN_DESC": "WhatsAsena'yı kapatın",
-            "SHUTDOWN_MSG": "```kapatmak ⛔```",
+            "RESTART_MSG": "```Yeniden başlatılıyor...```",
+            "SHUTDOWN_DESC": "WhatsAsena'yı kapatır.",
+            "SHUTDOWN_MSG": "```Kapatılıyor... ⛔```",
             "DYNO_DESC": "Heroku dyno kullanımını kontrol edin",
             "DYNO_TOTAL": "```Toplam Kota```",
             "DYNO_USED": "```Kullanılan kota```",
             "PERCENTAGE": "```Yüzde```",
             "DYNO_LEFT": "```Kalan```",
-            "SETVAR_DESC": "Ayarlamak heroku config var",
+            "SETVAR_DESC": "Heroku'da kısa yolla config var ayarlar",
             "SET_SUCCESS": "Başarıyla ayarlandı ```{} ➜ {}```",
-            "KEY_VAL_MISSING": "```key veya value eksik```",
+            "KEY_VAL_MISSING": "```Key veya Value eksik yazdınız.```",
             "INVALID": "```Geçersiz key: value biçimi```",
-            "GETVAR_DESC": "almak heroku config var",
-            "DELVAR_DESC": "Sil heroku config var",
+            "GETVAR_DESC": "Heroku config var getirir.",
+            "DELVAR_DESC": "Heroku config var siler.",
             "DEL_SUCCESS": "```{} başarıyla silindi```",
             "NOT_FOUND": "```bu anahtar için sonuç bulunamadı```"           
         },
@@ -120,6 +120,18 @@
             "NOT_ADDED": "```Zaten bu kullanıcıyı eklememişsiniz!```",
             "DISABLED": "```Lydia bu kullanıcı için devredışı bırakıldı!``"
         },
+        "memes": {
+            "MEMES_DESC": "Yanıt verdiğiniz fotoğrafa yazdığınız yazıyı ekler.",
+            "NEED_REPLY": "*Bir fotoğraf veya videoya yanıt verin!*",
+            "DOWNLOADING": "```Medya indiriliyor & meme yapılıyor...```"
+        },
+        "ocr": {
+            "OCR_DESC": "Yanıt verdiğiniz fotoğraftaki yazıları okur.",
+            "NEED_REPLY": "*Bir fotoğrafa yanıt verin!*",
+            "DOWNLOADING": "```Medya indiriliyor & okunuyor...```",
+            "ERROR": "```Bunu okuyamadım :/```\n*Hata:*```{}```",
+            "RESULT": "*Dil:* ```{}```\n*İşte okuduklarım:* ```{}```"
+        },
         "profile": {
             "KICKME_DESC": "Yazdığınız gruptan sizi çıkarır.",
             "KICKME": "```Güle Güle! Ben gidiyorum 🤠```",
@@ -132,7 +144,10 @@
             "UNBLOCKED": "engelin kalktı",
             "BLOCKED_UPPER": "Engellendin!",
             "UNBLOCKED_UPPER": "Engelini kaldırdım.",
-            "NEED_USER": "Bana bir kullanıcı ver!"
+            "NEED_USER": "Bana bir kullanıcı ver!",
+            "JID_DESC": "Kullanıcının JID verir.",
+            "JID": "@{}, ```kullanıcısının JID adresi: {}```",
+            "JID_CHAT": "```Sohbetin JID adresi: {}```"
         },
         "removebg": {
             "REMOVEBG_DESC": "Fotoğrafın arka-planını siler.",
